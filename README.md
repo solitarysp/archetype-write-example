@@ -13,8 +13,8 @@ archetype này sử dụng để viết 1 số ví dụ hoặc viết 1 số dem
 # Info archetype
  Field | Value
  --- | --- 
- GroupId | vn.com.viettel.vds.archclient
- ArtifactId | arch-client
+ GroupId | com.lethanh98.archdemo
+ ArtifactId | archetype-write-example
  Version | 	1.0.1
  ## Sử dụng:
 Việc sử dụng tùy thuộc vào IDE đang sử dụng.
@@ -29,7 +29,7 @@ Việc sử dụng tùy thuộc vào IDE đang sử dụng.
 - IntelliJ:
 
 	- Cài đặt và cấu hình plug-in Maven Archtype Catalogs và làm theo hướng dẫn tại đây [tại đây](https://plugins.jetbrains.com/plugin/7965-maven-archetype-catalogs)
-	- Chon repo maven catalog local hoặc trên server `http://nexus.digital.vn/repository/maven-releases/archetype-catalog.xml`
+	- Chon repo maven catalog local hoặc trên server `http://domain/repository/maven-releases/archetype-catalog.xml`
 	- Tạo project Maven, click vào `create from archtype`.
 	- Chọn archtype tương ứng.
 	- Điền thông tin, next đến cuối
